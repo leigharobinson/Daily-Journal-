@@ -1,0 +1,33 @@
+
+{
+    "entries" : [
+        {
+            "id": 1,
+            "dateOfEntry": "Moday, April 6th, 2020",
+            "conceptsCovered": "John Wark, Instructors, classmates, getting our computers set up, .zshrc, how to make directory, how to navigate the terminal",
+            "longForm": "I learned a lot of stuff it was cool, love that my compter is all set up and I'm learning how to navigate it like a programmer",
+            "myMood": "happy" 
+        },
+        {
+            "id": 2,
+            "dateOfEntry": "Tuesday, April 7th, 2020",
+            "conceptsCovered": "Pluggins, Aliases, watched Cohort 38's frontend Demo Day, CRUD, Keyboard Shortcuts",
+            "longForm": "I learned a lot of stuff it was cool.",
+            "myMood": "happy"
+        },
+        {
+            "id": 3,
+            "dateOfEntry": "Wednesday, April 8th, 2020",
+            "conceptsCovered": "Serving up Data, BEM (block, element, modifier), Developer tools ('dev tools')",
+            "longForm": "I learned a lot of stuff it was cool and a lot.",
+            "myMood": "happy" 
+        },
+        {
+            "id": 14,
+            "dateOfEntry": "Friday, April 17th, 2020",
+            "conceptsCovered": "Arrays, Objects, how to access properties with dot notation or brackett notation",
+            "longForm": "I learned a lot of stuff it was cool and a lot.",
+            "myMood": "fine"
+        }
+    ]
+}
