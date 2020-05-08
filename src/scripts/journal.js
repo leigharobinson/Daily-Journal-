@@ -1,3 +1,9 @@
+import API from "./data.js"
+import renderJournalEntries from "./entryComponent.js"
+
+
+
+
 console.log("keep the faith Leigha")
 
 

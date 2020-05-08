@@ -1,6 +1,7 @@
 // Move the code that is responsible for creating the j
 // ournal entry HTML component into this file.
 
+import makeJournalEntryComponent from  "./entriesDOM.js"
 
 const dailyEntryLog = document.querySelector(".entryLog");
 
@@ -10,3 +11,5 @@ const renderJournalEntries = (entry) => {
     dailyEntryLog.innerHTML += makeJournalEntryComponent(entry[i]);
     }
 }
+
+export default renderJournalEntries
