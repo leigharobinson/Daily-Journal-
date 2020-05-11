@@ -3,15 +3,17 @@
 
 
 
-const makeJournalEntryComponent = (journalEntry) => {
-    return `
-    <div class="dailyEntry">
-        <h1>${journalEntry.dateOfEntry}</h1>
-        <section>${journalEntry.conceptsCovered}</section>
-        <p>${journalEntry.longForm}</p>
-        <aside>${journalEntry.myMood}</aside>
-    </div> 
-    `
+
+import makeJournalEntryComponent from  "./entryComponent.js"
+
+const dailyEntryLog = document.querySelector(".entryLog");
+
+const renderJournalEntries = (entries) => {
+    dailyEntryLog.innerHTML = ""
+    for (let i = 0; i < entries.length; i++) {
+    // console.log(entry[i]);
+    dailyEntryLog.innerHTML += makeJournalEntryComponent(entries[i]);
+    }
 }
 
-export default makeJournalEntryComponent
+export default renderJournalEntries
