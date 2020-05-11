@@ -8,10 +8,11 @@ import makeJournalEntryComponent from  "./entryComponent.js"
 
 const dailyEntryLog = document.querySelector(".entryLog");
 
-const renderJournalEntries = (entry) => {
-    for (let i = 0; i < entry.length; i++) {
+const renderJournalEntries = (entries) => {
+    dailyEntryLog.innerHTML = ""
+    for (let i = 0; i < entries.length; i++) {
     // console.log(entry[i]);
-    dailyEntryLog.innerHTML += makeJournalEntryComponent(entry[i]);
+    dailyEntryLog.innerHTML += makeJournalEntryComponent(entries[i]);
     }
 }
 
